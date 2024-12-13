@@ -34,3 +34,6 @@ author: "Shiraj Shrestha"
 
 # Base URL
 baseurl: "/blogs"
+sass:
+  sass_dir: sass
+  style: compressed
