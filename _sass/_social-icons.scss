@@ -1,0 +1,99 @@
+/*
+  Social media icons
+*/
+@use "variables";
+
+.sharing-icons a {
+  padding-right: 10px;
+}
+
+@mixin social-media-icon($color, $transition) {
+  -webkit-transition: $transition;
+  -o-transition: $transition;
+  -ms-transition: $transition;
+  -moz-transition: $transition;
+  transition: $transition;
+  &:hover {
+    color: $color;
+  }
+}
+
+.fa-envelope {
+  padding: 5px;
+  @include social-media-icon(
+    variables.$envelope-color,
+    variables.$icon-transition-time
+  );
+}
+
+.fa-twitter {
+  padding: 5px;
+  @include social-media-icon(
+    variables.$twitter-color,
+    variables.$icon-transition-time
+  );
+}
+
+.fa-instagram {
+  padding: 5px;
+  @include social-media-icon(
+    variables.$instagram-color,
+    variables.$icon-transition-time
+  );
+}
+
+.fa-github {
+  padding: 5px;
+  @include social-media-icon(
+    variables.$github-color,
+    variables.$icon-transition-time
+  );
+}
+
+.fa-linkedin {
+  padding: 5px;
+  @include social-media-icon(
+    variables.$linkedin-color,
+    variables.$icon-transition-time
+  );
+}
+
+.fa-facebook {
+  padding: 5px;
+  @include social-media-icon(
+    variables.$facebook-color,
+    variables.$icon-transition-time
+  );
+}
+
+.fa-pinterest {
+  padding: 5px;
+  @include social-media-icon(
+    variables.$pinterest-color,
+    variables.$icon-transition-time
+  );
+}
+
+.fa-medium {
+  padding: 5px;
+  @include social-media-icon(
+    variables.$medium-color,
+    variables.$icon-transition-time
+  );
+}
+
+.fa-codepen {
+  padding: 5px;
+  @include social-media-icon(
+    variables.$codepen-color,
+    variables.$icon-transition-time
+  );
+}
+
+.fa-rss-square {
+  padding: 5px;
+  @include social-media-icon(
+    variables.$rss-color,
+    variables.$icon-transition-time
+  );
+}
