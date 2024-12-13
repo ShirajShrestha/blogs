@@ -1,17 +1,24 @@
 ---
 ---
 
-// Import variables first (if used in other files)
 @import "base/variables";
-
-// Base styles (reset, typography, etc.)
 @import "base/code";
 @import "base/base";
-
-// Layout styles
 @import "layout/default";
 @import "layout/home";
 @import "layout/post";
-
-// Components
 @import "components/social-icons";
+
+// Example usage
+body {
+  font-family: $sans-serif-font-family;
+  color: $body-color;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+footer {
+  margin-top: 2rem;
+}

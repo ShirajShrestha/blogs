@@ -1,16 +1,15 @@
 /*
   Base
 */
-@use "variables";
 
 body {
-  font-family: variables.$serif-font-family;
+  font-family: $serif-font-family;
   font-size: 18px;
-  color: variables.$body-color;
+  color: $body-color;
   line-height: 1.75rem;
 }
 
-@media (max-width: variables.$elements-responsive-width) {
+@media (max-width: $elements-responsive-width) {
   body {
     font-size: 14px;
     line-height: 1.5rem;
@@ -34,17 +33,17 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: variables.$sans-serif-font-family;
-  color: variables.$dark-gray-color;
+  font-family: $sans-serif-font-family;
+  color: $dark-gray-color;
 }
 
 a {
   text-decoration: underline;
-  color: variables.$dark-gray-color;
+  color: $dark-gray-color;
 }
 
 a:hover {
-  color: variables.$link-color;
+  color: $link-color;
   border-bottom: none;
 }
 
@@ -57,13 +56,13 @@ img {
 blockquote {
   margin: 10px 20px 10px;
   padding: 0px 15px;
-  border-left: 0.25em solid variables.$extra-light-gray-color;
-  color: variables.$light-gray-color;
+  border-left: 0.25em solid $extra-light-gray-color;
+  color: $light-gray-color;
   line-height: 1.5;
 }
 
 hr {
-  border-top: 1px solid variables.$extra-light-gray-color;
+  border-top: 1px solid $extra-light-gray-color;
 }
 
 /*
