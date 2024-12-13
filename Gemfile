@@ -27,3 +27,8 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem 'csv'
 gem 'base64'
+gem 'faraday-retry'
+
+gem "jekyll-paginate"
+gem "jekyll-sitemap"
+gem "jekyll-seo-tag"
