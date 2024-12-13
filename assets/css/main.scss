@@ -2,10 +2,9 @@
 ---
 
 @use "-sections-dir";
-@import "../../_sass/variables";
-
+@use "variables" as vars;
 // Example usage
 body {
-  font-family: $sans-serif-font-family;
-  color: $body-color;
+  font-family: vars.$sans-serif-font-family;
+  color: vars.$body-color;
 }
